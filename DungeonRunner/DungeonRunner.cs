@@ -21,7 +21,6 @@ namespace DungeonRunner
 		private const string BossesXmlFile = "DungeonRunner.Bosses.xml";
 		private readonly AnimatedCardList _bossAnimatedCardList;
 
-		internal string BossName { get; set; }
 		internal Boss Boss { get; set; }
 		internal List<Boss> Bosses { get; } = new List<Boss>();
 
@@ -32,7 +31,7 @@ namespace DungeonRunner
 
 		public DungeonRunner(AnimatedCardList bossAnimatedCardList)
 		{
-			GenerateBosses();
+			ParseXml();
 
 			_bossAnimatedCardList = bossAnimatedCardList;
 			// Hide in menu, if necessary
@@ -48,7 +47,18 @@ namespace DungeonRunner
 			GameEvents.OnOpponentDeckToPlay.Add(RemoveCardFromBossDeck);
 			GameEvents.OnOpponentHandDiscard.Add(RemoveCardFromBossDeck);
 			GameEvents.OnOpponentPlay.Add(RemoveCardFromBossDeck);
+
+			GameEvents.OnTurnStart.Add(TurnStart);
+
 			GameEvents.OnPlayerDraw.Add(OnPlayerDraw);
+
+			Update();
+		}
+
+		private void Update()
+		{
+			UpdateBoss();
+			UpdateBossDeck();
 		}
 
 		///// <summary>
@@ -138,10 +148,15 @@ namespace DungeonRunner
 		///     Retrieve the Card list of boss.
 		/// </summary>
 		/// <returns>Card list for boss.</returns>
-		internal List<Card> BossCards { get; set; }
+		//internal List<Card> BossCards { get; set; }
 
-		private static void OnPlayerDraw(Card obj)
+		private void OnPlayerDraw(Card card)
 		{
+			if (string.IsNullOrEmpty(card.Name))
+				return;
+			if (card.Id == "GAME_005") return;
+
+			Update();
 		}
 
 		/// <summary>
@@ -150,7 +165,7 @@ namespace DungeonRunner
 		internal void GameEnd()
 		{
 			Reset();
-			UpdateBossDeck();
+			//UpdateBossDeck();
 		}
 
 		/// <summary>
@@ -159,32 +174,32 @@ namespace DungeonRunner
 		internal void GameStart()
 		{
 			Reset();
-			UpdateBossDeck();
+			//UpdateBossDeck();
 		}
 
-		/// <summary>
-		///     Gets the dungeon boss base, sorted card list.
-		/// </summary>
-		/// <returns></returns>
-		internal List<Card> GetBossBaseDeck()
-		{
-			Log.Debug("[ImportBossDeck() invoked.]");
-			if (CoreAPI.Game.IsDungeonMatch == null) return null;
-			Log.Debug("CoreAPI.Game.IsDungeonMatch != null");
-			if (BossCards != null) return null;
-			Log.Debug("BossCards == null");
-			BossName = CoreAPI.Game.CurrentGameStats.OpponentHero;
-			if (BossName == null) return null;
-			Log.Debug($"BossName: {BossName}");
+		///// <summary>
+		/////     Gets the dungeon boss base, sorted card list.
+		///// </summary>
+		///// <returns></returns>
+		//internal List<Card> GetBossBaseDeck()
+		//{
+		//	Log.Debug("[ImportBossDeck() invoked.]");
+		//	if (CoreAPI.Game.IsDungeonMatch == null) return null;
+		//	Log.Debug("CoreAPI.Game.IsDungeonMatch != null");
+		//	if (BossCards != null) return null;
+		//	Log.Debug("BossCards == null");
+		//	BossName = CoreAPI.Game.CurrentGameStats.OpponentHero;
+		//	if (BossName == null) return null;
+		//	Log.Debug($"BossName: {BossName}");
 
-			// Get boss by name.
-			var boss = Bosses.Single(b => b.Name == BossName);
-			// If found, return card list.
-			if (boss != null) return boss.CardList;
-			// If no valid deck use empty card list.
-			Log.Debug($"++++++ NO DECK FOUND FOR {BossName} ++++++");
-			return new List<Card>();
-		}
+		//	// Get boss by name.
+		//	var boss = Bosses.Single(b => b.Name == BossName);
+		//	// If found, return card list.
+		//	if (boss != null) return boss.Cards;
+		//	// If no valid deck use empty card list.
+		//	Log.Debug($"++++++ NO DECK FOUND FOR {BossName} ++++++");
+		//	return new List<Card>();
+		//}
 
 		/// <summary>
 		///     Adds the passed Card to dungeon boss deck.
@@ -192,22 +207,20 @@ namespace DungeonRunner
 		/// <param name="card">Card to be added.</param>
 		internal void AddCardToBossDeck(Card card)
 		{
-			if (BossCards == null) return;
+			if (Boss?.Cards == null) return;
 
-			if (BossCards.Any(c => c.Id == card.Id))
+			// If card exists, increment, otherwise add.
+			var existing = Boss.Cards.First(c => c.Id == card.Id);
+			if (existing != null)
 			{
-				var existing = BossCards.First(c => c.Id == card.Id);
-				// Increment count.
-				//existing.Count = card.Count + 1;
 				existing.Count++;
 			}
 			else
 			{
-				// Card not found, add.
-				BossCards.Add(card);
+				Boss.Cards.Add(card);
 			}
 
-			UpdateBossDeck();
+			Update();
 		}
 
 		/// <summary>
@@ -216,32 +229,45 @@ namespace DungeonRunner
 		/// <param name="card">Card to be removed.</param>
 		internal void RemoveCardFromBossDeck(Card card)
 		{
-			if (BossCards == null) return;
-
 			// Check if card exists.
-			if (BossCards.Any(c => c.Id == card.Id))
-			{
-				var existing = BossCards.First(c => c.Id == card.Id);
-				Log.Debug($"EXISTING CARD, PREVIOUS: {existing.Name}[{existing.Count}]");
-				Log.Debug($"INCOMING CARD: {card.Name} [{card.Count}]");
-				existing.Count--;
-				Log.Debug($"EXISTING CARD, CURRENT: {existing.Name}[{existing.Count}]");
-			}
+			var existing = Boss?.Cards?.First(c => c.Id == card.Id);
+			if (existing == null) return;
 
-			UpdateBossDeck();
+			Log.Debug($"EXISTING CARD, PREVIOUS: {existing.Name}[{existing.Count}]");
+			Log.Debug($"INCOMING CARD: {card.Name} [{card.Count}]");
+			existing.Count--;
+			Log.Debug($"EXISTING CARD, CURRENT: {existing.Name}[{existing.Count}]");
+
+			Update();
 		}
 
 		/// <summary>
-		///     Updates dungeon boss deck.
+		///		Update Boss.
+		/// </summary>
+		private void UpdateBoss()
+		{
+			// Boss exists.
+			if (Boss != null) return;
+			// Not dungeon match.
+			if (CoreAPI.Game.IsDungeonMatch == null) return;
+			var opponentHero = CoreAPI.Game.CurrentGameStats.OpponentHero;
+			if (opponentHero == null) return;
+			Log.Debug($"OpponentHero: {opponentHero}");
+			// Get clone of Boss from collection, to avoid mid-run deck modifications.
+			Boss = (Boss) Bosses.FirstOrDefault(b => b.Name == opponentHero)?.Clone();
+		}
+
+		/// <summary>
+		///     Updates Boss deck.
 		/// </summary>
 		internal void UpdateBossDeck()
 		{
-			if (BossCards == null) return;
+			if (Boss?.Cards == null) return;
 
 			Log.Debug("UpdateBossDeck");
-			LogCardList(BossCards);
+			LogCardList(Boss.Cards);
 
-			_bossAnimatedCardList.Update(BossCards, false);
+			_bossAnimatedCardList.Update(Boss.Cards, false);
 
 			// Make visible.
 			SetVisibility(true);
@@ -268,12 +294,7 @@ namespace DungeonRunner
 		{
 			if (player != ActivePlayer.Player || Opponent == null) return;
 
-			// Get base boss deck, if necessary.
-			if (BossCards != null) return;
-			BossCards = GetBossBaseDeck();
-			//DungeonBossCards = GetDungeonBossBaseDeck();
-
-			UpdateBossDeck();
+			Update();
 		}
 
 		/// <summary>
@@ -299,8 +320,9 @@ namespace DungeonRunner
 		/// </summary>
 		internal void Reset()
 		{
-			Log.Debug("RESETTING DUNGEON BOSS DECK");
-			BossCards = null;
+			Log.Debug("RESETTING BOSS");
+			Boss = null;
+			Update();
 		}
 
 		internal void LogEntityList(IEnumerable<Entity> list)
@@ -318,7 +340,7 @@ namespace DungeonRunner
 		/// <summary>
 		///		Generate Bosses collection from xml.
 		/// </summary>
-		internal void GenerateBosses()
+		internal void ParseXml()
 		{
 			try
 			{
@@ -329,34 +351,46 @@ namespace DungeonRunner
 				var bossElements = xml.Elements("boss");
 				foreach (var bossElement in bossElements)
 				{
-					var name = bossElement.Attribute("name")?.Value;
-					var tierMinimum = Convert.ToInt32(bossElement.Element("tierMinimum")?.Value);
-					var tierMaximum = Convert.ToInt32(bossElement.Element("tierMaximum")?.Value);
-					var cardElements = bossElement.Element("deck")?.Elements("card");
-					var cardList = new List<Card>();
-					if (cardElements != null)
-						foreach (var cardElement in cardElements)
-						{
-							var cardName = cardElement.Element("name")?.Value.Replace("’", "'");
-							var card = Database.GetCardFromName(cardName, false, true, false);
-							if (string.IsNullOrEmpty(card?.Name) || card.Id == Database.UnknownCardId)
-							{
-								Log.Error($"Could not import '{cardName}' card from boss deck '{name}'.");
-								continue;
-							}
-							card.Count = Convert.ToInt32(cardElement.Element("count")?.Value);
-							cardList.Add(card);
-						}
-					// Sort card list by cost.
-					cardList.Sort((c1, c2) => c1.Cost.CompareTo(c2.Cost));
 					// Add boss to collection.
-					Bosses.Add(new Boss(name, cardList, tierMinimum, tierMaximum));
+					Bosses.Add(GetBossFromXml(bossElement));
 				}
 			}
 			catch (Exception ex)
 			{
 				Hearthstone_Deck_Tracker.Utility.Logging.Log.Error(ex);
 			}
+		}
+
+		/// <summary>
+		/// Gets a new Boss instance from parsed XElement.
+		/// </summary>
+		/// <param name="bossElement">XML boss element to parse.</param>
+		/// <returns>Boss object.</returns>
+		internal Boss GetBossFromXml(XElement bossElement)
+		{
+			var name = bossElement.Attribute("name")?.Value;
+			var tierMinimum = Convert.ToInt32(bossElement.Element("tierMinimum")?.Value);
+			var tierMaximum = Convert.ToInt32(bossElement.Element("tierMaximum")?.Value);
+			var cardElements = bossElement.Element("deck")?.Elements("card");
+			var cardList = new List<Card>();
+			if (cardElements != null)
+			{
+				foreach (var cardElement in cardElements)
+				{
+					var cardName = cardElement.Element("name")?.Value.Replace("’", "'");
+					var card = Database.GetCardFromName(cardName, false, true, false);
+					if (string.IsNullOrEmpty(card?.Name) || card.Id == Database.UnknownCardId)
+					{
+						Log.Error($"Could not import '{cardName}' card from boss deck '{name}'.");
+						continue;
+					}
+					card.Count = Convert.ToInt32(cardElement.Element("count")?.Value);
+					cardList.Add(card);
+				}
+			}
+			// Sort card list by cost.
+			cardList.Sort((c1, c2) => c1.Cost.CompareTo(c2.Cost));
+			return new Boss(name, cardList, tierMinimum, tierMaximum);
 		}
 	}
 }

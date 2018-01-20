@@ -11,7 +11,7 @@ namespace DungeonRunner
 {
 	public class Plugin : IPlugin
 	{
-		private AnimatedCardList _dungeonBossAnimatedCardList;
+		private AnimatedCardList _bossAnimatedCardList;
 
 		public string Author => "Gabe Wyatt <gabe@gabewyatt.com";
 
@@ -30,7 +30,7 @@ namespace DungeonRunner
 		public void OnLoad()
 		{
 			// Create container.
-			_dungeonBossAnimatedCardList = new AnimatedCardList();
+			_bossAnimatedCardList = new AnimatedCardList();
 
 			// Stick to the Right of the player panel
 			var border = Core.OverlayCanvas.FindName("BorderStackPanelOpponent") as Border;
@@ -39,40 +39,36 @@ namespace DungeonRunner
 			DependencyPropertyDescriptor.FromProperty(Canvas.TopProperty, typeof(Border))
 				.AddValueChanged(border, Layout);
 			DependencyPropertyDescriptor.FromProperty(StackPanel.ActualWidthProperty, typeof(StackPanel))
-				.AddValueChanged(_dungeonBossAnimatedCardList, Layout);
+				.AddValueChanged(_bossAnimatedCardList, Layout);
 
-			Core.OverlayCanvas.Children.Add(_dungeonBossAnimatedCardList);
+			Core.OverlayCanvas.Children.Add(_bossAnimatedCardList);
 			
-			var dungeonRunner = new DungeonRunner(_dungeonBossAnimatedCardList);
+			var dungeonRunner = new DungeonRunner(_bossAnimatedCardList);
 
 			// TODO: Fix bug, summoning (ressurecting) a minion increases counter by 1.
-			// TODO: Add dungeon boss detection/deck load during mulligan.
 
 			GameEvents.OnGameStart.Add(dungeonRunner.GameStart);
 			GameEvents.OnGameEnd.Add(dungeonRunner.GameEnd);
 			GameEvents.OnInMenu.Add(dungeonRunner.InMenu);
-			GameEvents.OnTurnStart.Add(dungeonRunner.TurnStart);
 		}
 
 		private void Layout(object obj, EventArgs e)
 		{
 			var border = Core.OverlayCanvas.FindName("BorderStackPanelOpponent") as Border;
 			if (border == null) return;
-			//Canvas.SetLeft(_dungeonBossAnimatedCardList, Canvas.GetLeft(border) + border.ActualWidth * Config.Instance.OverlayOpponentScaling / 100 + 10);
-			//Canvas.SetRight(_dungeonBossAnimatedCardList, Canvas.GetLeft(border) * Config.Instance.OverlayOpponentScaling / 100 + 10);
-			Canvas.SetLeft(_dungeonBossAnimatedCardList, Canvas.GetLeft(border) - border.ActualWidth * Config.Instance.OverlayOpponentScaling / 100 - 10);
-			Canvas.SetTop(_dungeonBossAnimatedCardList, Canvas.GetTop(border));
+			Canvas.SetLeft(_bossAnimatedCardList, Canvas.GetLeft(border) - border.ActualWidth * Config.Instance.OverlayOpponentScaling / 100 - 10);
+			Canvas.SetTop(_bossAnimatedCardList, Canvas.GetTop(border));
 		}
 
 		public void OnUnload()
 		{
-			Core.OverlayCanvas.Children.Remove(_dungeonBossAnimatedCardList);
+			Core.OverlayCanvas.Children.Remove(_bossAnimatedCardList);
 		}
 
 		public void OnUpdate()
 		{
 		}
 
-		public Version Version => new Version(0, 1, 1);
+		public Version Version => new Version(0, 3, 12);
 	}
 }

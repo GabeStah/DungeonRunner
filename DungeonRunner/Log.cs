@@ -13,5 +13,10 @@ namespace DungeonRunner
 		{
 			Hearthstone_Deck_Tracker.Utility.Logging.Log.Error($"!!!!! [DungeonRunner] {msg}", memberName, sourceFilePath);
 		}
+
+		internal static void Info(string msg, [CallerMemberName] string memberName = "", [CallerFilePath] string sourceFilePath = "")
+		{
+			Hearthstone_Deck_Tracker.Utility.Logging.Log.Info($"[DungeonRunner] {msg}", memberName, sourceFilePath);
+		}
 	}
 }
