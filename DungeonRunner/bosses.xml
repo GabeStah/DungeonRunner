@@ -1,0 +1,2747 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bosses>
+  <boss name="A. F. Kay">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>4</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Bag of Stuffing</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Boots of Haste</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bittertide Hydra</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fel Reaver</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frozen Crusher</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Giant Sand Worm</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ragnaros the Firelord</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ragnaros, Lightlord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frost Giant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sea GIant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Snowfury Giant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcane Giant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Clockwork Giant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mountain Giant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Molten Giant</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Azari, the Devourer">
+    <tierMinimum>8</tierMinimum>
+    <tierMaximum>8</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Flame Imp</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wrathguard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Demonwrath</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dreadsteed</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Pit Lord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Voidcaller</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bane of Doom</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Despicable Dreadlord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Doomguard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dread Infernal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kabal Trafficker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Abyssal Enforcer</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Fearsome Doomguard</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mal'Ganis</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Voidlord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>DOOM!</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Battlecrier Jin'zo">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Battle Rage</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bring It On!</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Cruel Taskmaster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dirty Rat</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Novice Engineer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Blubber Baron</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Coldlight Oracle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Grimestreet Smuggler</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mind Control Tech</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ravaging Ghoul</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Saboteur</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shield Block</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Defender of Argus</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Refreshment Vendor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Brawl</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Iron Juggernaut</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Bink the Burglar">
+    <tierMinimum>1</tierMinimum>
+    <tierMaximum>1</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Southsea Deckhand</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Swashburglar</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Cutpurse</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>One-eyed Cheat</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Undercity Huckster</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Undercity Valiant</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Burgle</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Fan of Knives</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Tomb Pillager</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Burgly Bully</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Blackseed">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Moonfire</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Living Roots</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Worgen Infiltrator</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ancient Watcher</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bilefin Tidehunter</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Darnassus Aspirant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wrath</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Humongous Razorleaf</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mire Keeper</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rattling Rascal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Saronite Chain Gang</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bomb Squad</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Doppelgangster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Living Mana</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Dark Wispers</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Spreading Plague</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Brimstone Warden">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>4</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Pit Snake</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shieldbearer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bear Trap</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Snake Trap</name>
+      </card>
+      <card>
+        <count>11</count>
+        <name>Stone Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Venomstrike Trap</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Emperor Cobra</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Giant Wasp</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Looming Presence</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Emperor Thaurissan</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Bristlesnarl">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>King's Elekk</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Deadly Shot</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kill Command</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bittertide Hydra</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Corpse Widow</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>King of Beasts</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Starving Buzzard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tundra Rhino</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Savannah Highmane</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Gahz'rilla</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Gladiator's Longbow</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Swamp King Dred</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Charged Devilsaur</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Giant Sand Worm</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Kathrena Winterwisp</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Call of the Wild</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Giant Mastodon</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>King Krush</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Candlebeard">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>3</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Pit Snake</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Swashburglar</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Cutpurse</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ship's Cannon</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Magma Rager</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shady Dealer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stoneskin Basilisk</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Vicious Fledgling</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Genzo, the Shark</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Piloted Shredder</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Xaril, Poisoned Mind</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dark Iron Skulker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Piloted Sky Golem</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Vanish</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wind-up Burglebot</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sneed's Old Shredder</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sea Giant</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Chronomaster Inara">
+    <tierMinimum>7</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Astral Portal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Archmage's Apprentice</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sorcerer's Apprentice</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Archmage's Insight</name>
+      </card>
+      <card>
+        <count>2</count>s
+        <name>Frozen Clone</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Looming Presence</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Animated Armor</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Aluneth</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Blizzard</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Emperor Thaurissan</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Archmage Antonidas</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Flamestrike</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Grand Archivist</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Gruul</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ragnaros the Firelord</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>The Lich King</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Malygos</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ysera</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Y'shaarj, Rage Unbound</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Elder Brandlemar">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>3</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Ancestral Healing</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frost Shock</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stonetusk Boar</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frostwolf Grunt</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rockbiter Weapon</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Windfury</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Raid Leader</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wolfrider</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Hex</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Chillwind Yeti</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sen'jin Shieldmasta</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Booty Bay Bodyguard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frostwolf Warlord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Boulderfist Ogre</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Reckless Rocketeer</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Elder Jari">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Innervate</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Earthen Scales</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Jasper Spellstone</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wild Growth</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wrath</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Greedy Sprite</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Branching Paths</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ironwood Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Swipe</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Druid of the Claw</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Nourish</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ancient of War</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Tree of Life</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ysera</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Kun the Forgotten King</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Tyrantus</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ultimate Infestation</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Frostfur">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>3</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Arcane Missiles</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Murloc Raider</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcane Explosion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bloodfen Raptor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Novice Engineer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>River Crocolisk</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcane Intellect</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Raid Leader</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wolfrider</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fireball</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Oasis Snapjaw</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Polymorph</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sen'jin Shieldmasta</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Nightblade</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Boulderfist Ogre</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Fungalmancer Flurgl">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Murloc Tinyfin</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Totemic Might</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Murloc Tidecaller</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bilefin Tidehunter</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Flametongue Totem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ice Fishing</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Hermit</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Murloc Tidehunter</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Primalfin Totem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Totem Golem</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Vitality Totem</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mana Tide Totem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Murloc Warleader</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Primal Talismans</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tuskarr Totemic</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Call in the Finishers</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Finja, the Flying Star</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="George and Karl">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>6</tierMaximum>
+    <deck>
+      <card>
+        <count>4</count>
+        <name>Tag Team</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lost in the Jungle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Equality</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Aldor Peacekeeper</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Blood Knight</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Divine Favor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Muster for Battle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rallying Blade</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Warhorse Trainer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Consecration</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lightfused Stegodon</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Grimestreet Enforcer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Quartermaster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stand Against Darkness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Vinecleaver</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Giant Rat">
+    <tierMinimum>1</tierMinimum>
+    <tierMaximum>1</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Bestial Wrath</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Stonetusk Boar</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Timber Wolf</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Young Dragonhawk</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Pint-Sized Summoner</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>River Crocolisk</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ironbeak Owl</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Explosive Shot</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Starving Buzzard</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Core Hound</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Gnosh the Greatworm">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>6</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Zealous Initiate</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Battle Rage</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Haunted Creeper</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Master Swordsmith</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stonesplinter Trogg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Devilsaur Egg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frothing Berserker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Gluttonous Trogg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Burly Rockjaw Trogg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Death's Bite</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Anubisath Sentinel</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Cobalt Scalebane</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Gurubashi Berserker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Corridor Creeper</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Violet Wurm</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Graves the Cleric">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>3</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Silence</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Leper Gnome</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Northshire Cleric</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Power Word: Shield</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Acidic Swamp Ooze</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Loot Hoarder</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Acolyte of Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Injured Blademaster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lightspawn</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Madness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Abomination</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Faceless Manipulator</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Holy Nova</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Temple Enforcer</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mind Control</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Gutmook">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Tunnel Trogg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ancestral Knowledge</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Crushing Hand</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lava Shock</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Millhouse Manastorm</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stormforged Axe</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Totem Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Gluttonous Trogg</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>King Mukla</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lightning Storm</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Burly Rockjaw Trogg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Flamewreathed Faceless</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Hoarding Dragon</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Burgly Bully</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Volcano</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Troggzor the Earthinator</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Snowfury Giant</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Ixlid">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>6</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Living Roots</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tentacle of N'Zoth</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mark of the Wild</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Power of the Wild</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wrath</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Addled Grizzly</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mark of Nature</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Defender of Argus</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Poison Seeds</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Savage Combatant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ticking Abomination</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bittertide Hydra</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mukla's Champion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Webweave</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Corridor Creeper</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Jeeru">
+    <tierMinimum>7</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Moonfire</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Living Roots</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dirty Rat</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Nat, the Darkfisher</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Wrath</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Acolyte of Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcane Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Coldlight Oracle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Grove Tender</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Swipe</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fel Reaver</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lunar Visions</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Recycle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Spreading Plague</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Starfire</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ultimate Infestation</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="King Togwaggle">
+    <tierMinimum>8</tierMinimum>
+    <tierMaximum>8</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Backstab</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Betrayal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Evasion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Eviscerate</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Geomancer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Hermit</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sudden Betrayal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Beneath the Grounds</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Apprentice</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Barbarian</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Evolved Kobold</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Illusionist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kobold Monk</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tomb Pillager</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Vanish</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Kraxx">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Shield Slam</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Armorsmith</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bladed Gauntlet</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Drywhisker Armorer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Execute</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sleep with the Fishes</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bash</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fiery War Axe</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shield Block</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Alley Armorsmith</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcanite Reaper</name>
+      </card>
+      <card>
+        <count>3</count>
+        <name>Gemstudded Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Unidentified Shield</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Crush</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Geosculptor Yip</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Lava-Filled Chamber">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Forbidden Flame</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Flame Geyser</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lava Shock</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Explosive Runes</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lava Burst</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Volcanic Potion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fire Plume Phoenix</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fireball</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fireguard Destroyer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Volcano</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fire Elemental</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Firelands Portal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Flamestrike</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Kalimos, Primal Lord</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ragnaros the Firelord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Pyroblast</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Lyris the Wild Mage">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>5</count>
+        <name>Arcane Intellect</name>
+      </card>
+      <card>
+        <count>20</count>
+        <name>Flamewaker</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Archmage Antonidas</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Arcane Giant</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Mushhuckster Max">
+    <tierMinimum>5</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Mistress of Mixtures</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Potion of Madness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Crazed Alchemist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Death</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shrieking Shroom</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Eater of Secrets</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kabal Chemist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kooky Chemist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shroom Brewer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shroomsayer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Violet Teacher</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Darkshire Alchemist</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Fungalmancer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ancient of Blossoms</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>The Boogeymonster</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Overseer Mogark">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Runic Egg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Armorsmith</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Battle Rage</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Execute</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Nerubian Egg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rampage</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Unstable Ghoul</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Acolyte of Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Blood Warriors</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Devilsaur Egg</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fiery War Axe</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Frothing Berserker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Brawl</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Death Revenant</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sudden Genesis</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Pathmaker Hamm">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>8</count>
+        <name>Mad Bomber</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Frothing Berserker</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Axe Flinger</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bomb Lobber</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Bomb Squad</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Brawl</name>
+      </card>
+      <card>
+        <count>5</count>
+        <name>Madder Bomber</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Rotface</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Russell the Bard">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Backstab</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Counterfeit Coin</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Swashburglar</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Annoy-o-Tron</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Evasion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Eviscerate</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Knife Juggler</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Perdition's Blade</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Questing Adventurer</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Barnes</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Elven Minstrel</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lesser Onyx Spellstone</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shado-Pan Rider</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stampeding Kodo</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Antique Healbot</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Thistle Tea</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Seriona">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>3</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Flash Heal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Potion of Madness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Twilight Whelp</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Netherspite Historian</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Spirit Lash</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Duskbreaker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Madness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Horror</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Twilight Drake</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Twilight Guardian</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Blackwing Corruptor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Book Wyrm</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dragonfire Potion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sleepy Dragon</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ysera</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Deathwing, Dragonlord</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Spiritspeaker Azun">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Awaken the Makers</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Crystalline Oracle</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mistress of Mixtures</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Loot Hoarder</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Death</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shallow Gravedigger</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Arfus</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Barnes</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Eternal Servitude</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shifting Shade</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Spiritsinger Umbra</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tortollan Shellraiser</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Holy Nova</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Onyx Bishop</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Bone Drake</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Essence</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Obsidian Statue</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>N'Zoth, the Corruptor</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Tad">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>6</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Emerald Hive Queen</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Millhouse Manastorm</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Starving Crab</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Flamewreathed Faceless</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Earth Elemental</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Cairne Bloodhoof</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Swamp King Dred</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ragnaros the Firelord</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>King Krush</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Tyrantus</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Thaddock the Thief">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Backstab</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Preparation</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadowstep</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Fire Fly</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Glacial Shard</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Patches the Pirate</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Southsea Deckhand</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Stonetusk Boar</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Swashburglar</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>The Caverns Below</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bilefin Tidehunter</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Gadgetzan Ferryman</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Novice Engineer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Youthful Brewmaster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Igneous Elemental</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mimic Pod</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Vanish</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="The Darkness">
+    <tierMinimum>8</tierMinimum>
+    <tierMaximum>8</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Forbidden Shaping</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Potion of Madness</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Evasion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Pain</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sudden Betrayal</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Looming Presence</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Bolt</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadow Word: Death</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadowfiend</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Cabal Shadow Priest</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Entomb</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Psychic Scream</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Twisting Nether</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mind Control</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="The Mothergloop">
+    <tierMinimum>7</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Growing Ooze</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Meanstreet Marshal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Acidic Swamp Ooze</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Echoing Ooze</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rat Pack</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sergeant Sally</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dispatch Kodo</name>
+      </card>
+      <card>
+        <count>5</count>
+        <name>Reverberating Ooze</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Saronite Chain Gang</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shroomsayer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Doppelgangster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Green Jelly</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Knuckles</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Solemn Vigil</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Hogger, Doom of Elwynn</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Trapped Room">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Secretkeeper</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ethereal Arcanist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shroomsayer</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Bear Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Cat Trick</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Dart Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Explosive Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Freezing Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Misdirection</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Snake Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Snipe</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Venomstrike Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Wandering Monster</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Counterspell</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Explosive Runes</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Frozen Clone</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mana Bind</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Mirror Entity</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Potion of Polymorph</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Spellbender</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Vaporize</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Eye for an Eye</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Noble Sacrifice</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Repentance</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sacred Trial</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Evasion</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sudden Betrayal</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Treasure Vault">
+    <tierMinimum>2</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>7</count>
+        <name>Treasure Coffer</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Voodoomaster Vex">
+    <tierMinimum>6</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Mistress of Mixtures</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Explosive Sheep</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shallow Gravedigger</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Unearthed Raptor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Piloted Shredder</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Rattling Rascal</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Ticking Abomination</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Xaril, Poisoned Mind</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Abomination</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Bomb Squad</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Carnivorous Cube</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Corpse Raiser</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Shadowcaster</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tomb Lurker</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Aya Blackpaw</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sylvanas Windrunner</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sneed's Old Shredder</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Vustrasz the Ancient">
+    <tierMinimum>8</tierMinimum>
+    <tierMaximum>8</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Twilight Whelp</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Chromatic Dragonkin</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Spirit Lash</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Looming Presence</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Unidentified Elixir</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Velen's Chosen</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Hoarding Dragon</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Azure Drake</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Blackwing Corruptor</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Cobalt Scalebane</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Drakonid Operative</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Holy Nova</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Power Word: Tentacles</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lightbomb</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Wrathion</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ysera</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Waxmancer Sturmi">
+    <tierMinimum>3</tierMinimum>
+    <tierMaximum>7</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Fiery Bat</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Explosive Trap</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Freezing Trap</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Huge Toad</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Jeweled Scarab</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Loot Hoarder</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Quick Shot</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Animal Companion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Eaglehorn Bow</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Forlorn Stalker</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Kill Command</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Unleash the Hounds</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Infested Wolf</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tomb Spider</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Princess Huhuran</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Savannah Highmane</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Sylvanas Windrunner</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>N'Zoth, the Corruptor</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Wee Whelp">
+    <tierMinimum>1</tierMinimum>
+    <tierMaximum>1</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Dragon Egg</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Stonetusk Boar</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Bloodfen Raptor</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Faerie Dragon</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Raid Leader</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Chillwind Yeti</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Twilight Drake</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Azure Drake</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Dragon's Breath</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Volcanic Drake</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Whompwhisker">
+    <tierMinimum>4</tierMinimum>
+    <tierMaximum>5</tierMaximum>
+    <deck>
+      <card>
+        <count>1</count>
+        <name>Execute</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sen'jin Shieldmasta</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Arcanite Reaper</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Brawl</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Pit Fighter</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Validated Doomsayer</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Mogor's Champion</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Crush</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Silver Vanguard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Tar Lord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>War Golem</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Eldritch Horror</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Giant Sand Worm</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Gruul</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Rotface</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Sleepy Dragon</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Ultrasaur</name>
+      </card>
+    </deck>
+  </boss>
+  <boss name="Xol the Unscathed">
+    <tierMinimum>8</tierMinimum>
+    <tierMaximum>8</tierMaximum>
+    <deck>
+      <card>
+        <count>2</count>
+        <name>Flame Imp</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Lakkari Sacrifice</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Malchezaar's Imp</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Power Overwhelming</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Soulfire</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Clutchmother Zavas</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Corrupting Mist</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Darkshire Librarian</name>
+      </card>
+      <card>
+        <count>4</count>
+        <name>Howlfiend</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Silverware Golem</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Cataclysm</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Lakkari Felhound</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Blood-Queen Lana'thel</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Despicable Dreadlord</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Doomguard</name>
+      </card>
+      <card>
+        <count>2</count>
+        <name>Dark Bargain</name>
+      </card>
+      <card>
+        <count>1</count>
+        <name>Deathwing</name>
+      </card>
+    </deck>
+  </boss>
+</bosses>
