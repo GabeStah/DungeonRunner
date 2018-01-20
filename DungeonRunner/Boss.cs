@@ -43,6 +43,8 @@ namespace DungeonRunner
 			var boss = (Boss) MemberwiseClone();
 			boss.Name = string.Copy(Name);
 			boss.Cards = Cards.ConvertAll(c => (Card) c.Clone());
+			// Sort by cost.
+			boss.Cards.Sort((c1, c2) => c1.Cost.CompareTo(c2.Cost));
 			return boss;
 		}
 	}

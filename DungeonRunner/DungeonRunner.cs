@@ -18,15 +18,12 @@ namespace DungeonRunner
 {
 	public class DungeonRunner
 	{
-		private const string BossesXmlFile = "DungeonRunner.Bosses.xml";
 		private readonly AnimatedCardList _bossAnimatedCardList;
+		private const string BossesXmlFile = "DungeonRunner.Bosses.xml";
 
 		internal Boss Boss { get; set; }
 		internal List<Boss> Bosses { get; } = new List<Boss>();
-
-		internal List<Entity> Entities =>
-			Helper.DeepClone(CoreAPI.Game.Entities).Values.ToList();
-
+		internal List<Entity> Entities => Helper.DeepClone(CoreAPI.Game.Entities).Values.ToList();
 		internal Entity Opponent => Entities?.FirstOrDefault(x => x.IsOpponent);
 
 		public DungeonRunner(AnimatedCardList bossAnimatedCardList)
@@ -57,8 +54,8 @@ namespace DungeonRunner
 
 		private void Update()
 		{
-			UpdateBoss();
-			UpdateBossDeck();
+			var reset = UpdateBoss();
+			UpdateBossDeck(reset);
 		}
 
 		///// <summary>
@@ -165,7 +162,6 @@ namespace DungeonRunner
 		internal void GameEnd()
 		{
 			Reset();
-			//UpdateBossDeck();
 		}
 
 		/// <summary>
@@ -174,7 +170,6 @@ namespace DungeonRunner
 		internal void GameStart()
 		{
 			Reset();
-			//UpdateBossDeck();
 		}
 
 		///// <summary>
@@ -244,30 +239,32 @@ namespace DungeonRunner
 		/// <summary>
 		///		Update Boss.
 		/// </summary>
-		private void UpdateBoss()
+		private bool UpdateBoss()
 		{
 			// Boss exists.
-			if (Boss != null) return;
+			if (Boss != null) return false;
 			// Not dungeon match.
-			if (CoreAPI.Game.IsDungeonMatch == null) return;
+			if (CoreAPI.Game.IsDungeonMatch == null) return false;
 			var opponentHero = CoreAPI.Game.CurrentGameStats.OpponentHero;
-			if (opponentHero == null) return;
+			if (opponentHero == null) return false;
 			Log.Debug($"OpponentHero: {opponentHero}");
 			// Get clone of Boss from collection, to avoid mid-run deck modifications.
 			Boss = (Boss) Bosses.FirstOrDefault(b => b.Name == opponentHero)?.Clone();
+			return true;
 		}
 
 		/// <summary>
-		///     Updates Boss deck.
+		/// Updates Boss deck.
 		/// </summary>
-		internal void UpdateBossDeck()
+		/// <param name="reset">Indicates if animated list shoudl be reset, which fixes ordering on new game start.</param>
+		internal void UpdateBossDeck(bool reset = false)
 		{
 			if (Boss?.Cards == null) return;
 
 			Log.Debug("UpdateBossDeck");
 			LogCardList(Boss.Cards);
 
-			_bossAnimatedCardList.Update(Boss.Cards, false);
+			_bossAnimatedCardList.Update(Boss.Cards, reset);
 
 			// Make visible.
 			SetVisibility(true);
