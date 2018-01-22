@@ -13,7 +13,7 @@ namespace DungeonRunner
 	{
 		private AnimatedCardList _bossAnimatedCardList;
 
-		public string Author => "Gabe Wyatt <gabe@gabewyatt.com";
+		public string Author => "Gabe Wyatt <gabe@gabewyatt.com>";
 
 		public string ButtonText => "Dungeon Runner";
 
@@ -40,7 +40,7 @@ namespace DungeonRunner
 				.AddValueChanged(border, Layout);
 			DependencyPropertyDescriptor.FromProperty(StackPanel.ActualWidthProperty, typeof(StackPanel))
 				.AddValueChanged(_bossAnimatedCardList, Layout);
-
+			
 			Core.OverlayCanvas.Children.Add(_bossAnimatedCardList);
 			
 			var dungeonRunner = new DungeonRunner(_bossAnimatedCardList);
@@ -69,6 +69,6 @@ namespace DungeonRunner
 		{
 		}
 
-		public Version Version => new Version(0, 3, 14);
+		public Version Version => new Version(0, 3, 15);
 	}
 }
