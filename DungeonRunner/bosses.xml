@@ -520,7 +520,7 @@
       </card>
     </deck>
   </boss>
-  <boss name="Chronomaster Inara">
+  <boss name="Chronomancer Inara">
     <tierMinimum>7</tierMinimum>
     <tierMaximum>7</tierMaximum>
     <deck>

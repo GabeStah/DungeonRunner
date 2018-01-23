@@ -69,6 +69,6 @@ namespace DungeonRunner
 		{
 		}
 
-		public Version Version => new Version(0, 3, 15);
+		public Version Version => new Version(0, 3, 16);
 	}
 }

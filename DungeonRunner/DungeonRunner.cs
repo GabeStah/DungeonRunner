@@ -44,6 +44,7 @@ namespace DungeonRunner
 			GameEvents.OnOpponentDeckToPlay.Add(RemoveCardFromBossDeck);
 			GameEvents.OnOpponentHandDiscard.Add(RemoveCardFromBossDeck);
 			GameEvents.OnOpponentPlay.Add(RemoveCardFromBossDeck);
+			GameEvents.OnOpponentSecretTriggered.Add(RemoveCardFromBossDeck);
 
 			GameEvents.OnTurnStart.Add(TurnStart);
 
@@ -212,6 +213,8 @@ namespace DungeonRunner
 			}
 			else
 			{
+				// Ensure count is 1.
+				card.Count = 1;
 				Boss.Cards.Add(card);
 			}
 
