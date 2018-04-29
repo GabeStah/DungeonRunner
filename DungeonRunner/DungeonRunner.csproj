@@ -33,10 +33,10 @@
   <ItemGroup>
     <Reference Include="HearthDb, Version=10.0.0.22611, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Gabe\AppData\Local\HearthstoneDeckTracker\app-1.5.11\HearthDb.dll</HintPath>
+      <HintPath>C:\Users\Gabe\AppData\Local\HearthstoneDeckTracker\app-1.6.5\HearthDb.dll</HintPath>
     </Reference>
     <Reference Include="HearthstoneDeckTracker">
-      <HintPath>C:\Users\Gabe\AppData\Local\HearthstoneDeckTracker\app-1.5.11\HearthstoneDeckTracker.exe</HintPath>
+      <HintPath>C:\Users\Gabe\AppData\Local\HearthstoneDeckTracker\app-1.6.5\HearthstoneDeckTracker.exe</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -63,6 +63,12 @@
     <Compile Include="DungeonBossDeckList.xaml.cs">
       <DependentUpon>DungeonBossDeckList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Include="DungeonBossDeckList.xaml">
@@ -72,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Bosses.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

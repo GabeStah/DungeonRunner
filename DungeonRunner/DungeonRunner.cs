@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Windows;
+using System.Windows.Controls;
 using System.Xml.Linq;
 using Hearthstone_Deck_Tracker;
 using Hearthstone_Deck_Tracker.API;
@@ -19,6 +20,7 @@ namespace DungeonRunner
 	public class DungeonRunner
 	{
 		private readonly AnimatedCardList _bossAnimatedCardList;
+		private readonly StackPanel _bossStackPanel;
 		private const string BossesXmlFile = "DungeonRunner.Bosses.xml";
 
 		internal Boss Boss { get; set; }
@@ -26,11 +28,12 @@ namespace DungeonRunner
 		internal List<Entity> Entities => Helper.DeepClone(CoreAPI.Game.Entities).Values.ToList();
 		internal Entity Opponent => Entities?.FirstOrDefault(x => x.IsOpponent);
 
-		public DungeonRunner(AnimatedCardList bossAnimatedCardList)
+		public DungeonRunner(AnimatedCardList bossAnimatedCardList, StackPanel bossStackPanel)
 		{
 			ParseXml();
 
 			_bossAnimatedCardList = bossAnimatedCardList;
+			_bossStackPanel = bossStackPanel;
 			// Hide in menu, if necessary
 			//if (Config.Instance.HideInMenu && CoreAPI.Game.IsInMenu)
 			//    _list.Hide();
@@ -369,8 +372,8 @@ namespace DungeonRunner
 		internal Boss GetBossFromXml(XElement bossElement)
 		{
 			var name = bossElement.Attribute("name")?.Value;
-			var tierMinimum = Convert.ToInt32(bossElement.Element("tierMinimum")?.Value);
-			var tierMaximum = Convert.ToInt32(bossElement.Element("tierMaximum")?.Value);
+			var tierMinimum = Convert.ToInt32(string.IsNullOrEmpty(bossElement.Element("tierMinimum")?.Value) ? "1" : bossElement.Element("tierMinimum")?.Value);
+			var tierMaximum = Convert.ToInt32(string.IsNullOrEmpty(bossElement.Element("tierMaximum")?.Value) ? "1" : bossElement.Element("tierMaximum")?.Value);
 			var cardElements = bossElement.Element("deck")?.Elements("card");
 			var cardList = new List<Card>();
 			if (cardElements != null)
@@ -384,7 +387,12 @@ namespace DungeonRunner
 						Log.Error($"Could not import '{cardName}' card from boss deck '{name}'.");
 						continue;
 					}
-					card.Count = Convert.ToInt32(cardElement.Element("count")?.Value);
+					card.Count = Convert.ToInt32(string.IsNullOrEmpty(cardElement.Element("count")?.Value) ? "1" : cardElement.Element("count")?.Value);
+					//card.Count = Convert.ToInt32(cardElement.Element("count")?.Value);
+					//if (card.Count == 0)
+					//{
+					//	card.Count = 1;
+					//}
 					cardList.Add(card);
 				}
 			}
